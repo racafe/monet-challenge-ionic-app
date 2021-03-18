@@ -1,6 +1,6 @@
 {
   "appId": "de.monet.challenge",
-  "appName": "monetchallenge",
+  "appName": "Monet Challenge",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",

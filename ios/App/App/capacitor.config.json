@@ -1,1 +1,13 @@
-{}
+{
+  "appId": "de.monet.challenge",
+  "appName": "Monet Challenge",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
