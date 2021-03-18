@@ -1,6 +1,8 @@
 {
   "name": "monet-challenge-ionic-app",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular",
   "id": "dbebb58f"
 }
