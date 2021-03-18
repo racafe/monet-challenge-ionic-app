@@ -1,0 +1,32 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button color="dark"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="header">
+    <h1 class="title">User successfully created</h1>
+    <p class="paragraph">Just a few more personal questions, so we can open your security account.</p>
+  </div>
+  <div id="container">
+    <ion-list>
+      <ion-item lines="none">
+        <ion-icon slot="start" name="checkmark-circle" color="success"></ion-icon>
+        <ion-label>Account created</ion-label>
+      </ion-item>
+      <span class="line-divider"></span>
+      <ion-item lines="none">
+        <ion-icon slot="start" name="radio-button-on-outline" color="light"></ion-icon>
+        <ion-label>Account created</ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-button color="primary" expand="full">Continue</ion-button>
+  </ion-toolbar>
+</ion-footer>

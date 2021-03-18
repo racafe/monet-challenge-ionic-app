@@ -8,9 +8,12 @@
   margin-top: 15px;
   color: '#444';
 }
-
-#container,
-.container {
-  position: relative;
-  margin-top: 10px;
+.line-divider {
+  width: 2px;
+  height: 21px;
+  position: absolute;
+  left: 33px;
+  top: 34px;
+  z-index: 2;
+  background: #eee;
 }
